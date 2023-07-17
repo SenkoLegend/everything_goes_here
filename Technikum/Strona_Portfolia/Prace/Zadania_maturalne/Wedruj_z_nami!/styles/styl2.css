@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+.topbanner {
+    vertical-align: top;
+    font-size: 130%;
+    top: 0;
+    color: white;
+    width: 100%;
+    background-color: #3CB371;
+    text-align: center;
+    padding: 10px;
+}
+body {
+    background-color: #FAEBD7;
+    font-family: "EB Garamond", serif;
+    
+}
+.leftside {
+    float: left;
+    width: 55%;
+    height: 450px;
+}
+.rightside {
+    float: right;
+    width: 45%;
+    height: 450px;
+    
+}
+.bottombanner {
+ vertical-align: bottom;
+    font-size: 130%;
+    position: static;
+    bottom: inherit;
+    color: white;
+    width: 100%;
+    background-color: #3CB371;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50%;
+}
+img {
+    border: 2px dashed #3CB371;
+    padding: 3px;
+    margin: 15px;
+}

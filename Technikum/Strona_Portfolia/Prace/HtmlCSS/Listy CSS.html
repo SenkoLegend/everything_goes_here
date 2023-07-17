@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Listy i wyliczenia</title>
+  <meta charset="utf-8"/>
+  <style>
+ul {
+list-style-type: circle;
+}
+ol { 
+list-style-image: url(punktor.gif);
+list-style-position: outside;
+}
+body {
+counter-reset: chapter;
+}
+h1:before {
+content: "Chapter " counter(chapter) ". ";
+counter-increment: chapter;
+}
+h1 {
+counter-reset: section;
+}
+h2:before {
+content: counter(chapter) "." counter(section) " ";
+counter-increment: section;
+}
+  </style>
+ </head>
+ <body>
+<ul>
+ <li>pozycja listy</li>
+ <li>pozycja listy</li>
+ <li>pozycja listy</li>
+</ul>
+<ol>
+ <li>pozycja listy</li>
+ <li>pozycja listy</li>
+ <li>pozycja listy</li>
+</ol>
+<h1>pozycja listy</h1>
+<h2>pozycja listy</h2>
+<h2>pozycja listy</h2>
+
+ </body>
+</html>

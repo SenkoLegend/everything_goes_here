@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zad5</title>
+        <meta charset="utf-8";>
+    </head>
+    <body>
+        <script type="text/javascript";>
+        var a = [50];
+        var i, n;
+        //For
+        for (i = 0; i <= 50; i++) {
+            a[i] = prompt("Podaj liczby (max. 50). Wpisz zero aby zakończyć.");
+            if (a[i] == 0){
+                i=50;
+            }
+        }
+        for (i = 0; i <= 50; i++) {
+            if (a[i] != 0) document.write(a[i]+"<br/>");
+            if (a[i] == 0) {
+                i=50;
+            }
+        }
+        </script>
+    </body>
+</html>
